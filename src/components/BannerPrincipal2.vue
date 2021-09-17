@@ -98,7 +98,7 @@ export default {
   position: relative
 .imagen_flotante
   &_1
-    animation: rotate1 3s ease-in-out infinite
+    animation: bounceLeft 1s ease-out infinite alternate
     position: absolute
     transform-origin: top
     @media (min-width: 996px)
@@ -115,7 +115,7 @@ export default {
       left: 12px
   &_2
     transform-origin: top
-    animation: rotate2 3s ease-in-out infinite
+    animation: bounceRight 1s ease-out 1s infinite alternate
     position: absolute
     @media (min-width: 996px)
       width: 81px
@@ -148,4 +148,24 @@ export default {
 
 	100%
 		transform: rotate(0deg)
+@keyframes bounceLeft
+  0%
+    transform: rotate(0deg);
+
+  50%
+    transform: rotate(0deg);
+
+  100%
+    transform: rotate(35deg);
+
+
+@keyframes bounceRight
+  0%
+    transform: rotate(0deg);
+
+  50%
+    transform: rotate(0deg);
+
+  100%
+    transform: rotate(-35deg);
 </style>
