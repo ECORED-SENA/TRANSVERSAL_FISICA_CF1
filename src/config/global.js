@@ -227,6 +227,70 @@ export default {
           },
         ],
       },
+      {
+        nombreRuta: 'tema4',
+        icono: 'far fa-file-alt',
+        numero: '4',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema5',
+        icono: 'far fa-file-alt',
+        numero: '5',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema6',
+        icono: 'far fa-file-alt',
+        numero: '6',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_3_1',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema7',
+        icono: 'far fa-file-alt',
+        numero: '7',
+        titulo: 'Fundamentación Textil',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo:
+              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            hash: 't_3_1',
+          },
+        ],
+      },
     ],
     subMenu: [
       {
