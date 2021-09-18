@@ -12,3 +12,23 @@
   &:hover
     background-color: $color-acento-contenido
     transform: scale(1.1)
+.recuadro-verde
+  .w-90
+    width: 90%
+  background-color: #C8E9E6
+  position: relative
+  padding-left: 500px
+  &:before
+    position: absolute
+    content: url(../assets/curso/adorno-recuadro.svg)
+    top: 0
+    left: 0
+    transform: translateX(30%) translateY(-30%)
+  &:after
+    position: absolute  
+    content: ''
+    bottom: 0
+    right: 0
+    background-color: $color-secundario
+    width: 40px
+    height: 43px

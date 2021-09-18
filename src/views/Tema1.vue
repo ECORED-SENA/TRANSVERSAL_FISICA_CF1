@@ -94,7 +94,7 @@
               |De la relación exacta de e=1,602.176.634×10-19 A·s, se obtiene la definición del amperio en función de las constantes e y ΔνCs. 
             img.mb-5(src="@/assets/curso/6.svg")
             p En esta definición, se concluye que el amperio es la corriente eléctrica en cuanto al flujo de 1/ (1,602.176.634×10-19) =6,241.509.074×1018 cargas elementales por segundo.
-      .row(subtitulo="Concepto" titulo="Tempera- tura termodiná-mica").p-4
+      .row(subtitulo="Concepto" titulo="Temperatura termodinámica").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
           h3 Kelvin (K)
@@ -265,7 +265,21 @@
         .textos
           h4 Multiplicación de un vector por un escalar
           p Al multiplicar o dividir el vector por un escalar, el resultado da otro vector, es decir, siendo A un vector, al multiplicarlo por 4, da como resultado el vector 4A, es decir 4 veces el vector.
-
+    .row.mb-5.justify-content-center(data-aos="zoom-in-up")
+      .col-lg-10
+        .tarjeta.color-acento-contenido.p-3.mb-5
+          .row.justify-content-center.align-items-center
+            .col-3.col-sm-2.col-lg-2
+              img(src="@/assets/curso/1.svg")
+            .col-9
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Enlace web
+                  p.text-small Para profundizar acerca de este tema ingrese al enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D.F, Cengage Learning desde la página 95.  
+                .col-sm-auto
+                  a.boton.color-acento-botones(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93202?page=95')" target="_blank")
+                    span Enlace web
+                    i.fas.fa-link
 </template>
 
 <script>
