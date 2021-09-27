@@ -23,13 +23,13 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Enlace web
-                  p.text-small Para una mejor comprensión puede acceder la base de datos de la biblioteca del SENA en el libro: Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D.F, Cengage Learning especialmente en la página 35.  
+                  p.text-small Para una mejor comprensión puede acceder la base de datos de la biblioteca del SENA en el libro: Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D. F., Cengage Learning especialmente en la página 35.  
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93202?page=35')" target="_blank")
                     span Enlace web
                     i.fas.fa-link
     #t_1_1.titulo-segundo(data-aos="slide-right")
-      h2 1.1 Variables físicas y sistema de Unidades 
+      h2 1.1 Variables físicas y sistema de unidades 
     p.mb-5 Una variable física, como su nombre lo dice, es un dato (número) que puede cambiar debido a un aspecto físico. Las variables principales son la distancia, la velocidad, la aceleración y el tiempo. Este dato o número se denomina magnitud y puede ser medido, 
       b ejemplo la velocidad, el tamaño, el peso, la aceleración, la fuerza, la longitud y otros.
       br
@@ -43,42 +43,41 @@
           h3 Metro (m)
       
         .col-md-10
-          .contenedor-acordeon.p-3
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
             p.mb-5 El metro (m), es la unidad del SI para la longitud. Este se define al fijar el valor de la velocidad de la luz en el vacío (c), en 299.792.458.
               br
               br
-              |Se expresa en m·s-1, en donde los segundos están en función de la frecuencia del cesio, 133 (ΔνCs).
+              |Se expresa en m·s<sup>-1</sup>, en donde los segundos están en función de la frecuencia del cesio, 133 (ΔνCs).
               br
               br
-              |A partir de la relación de c=299.792.458 m·s-1, se obtiene la expresión del metro.
+              |A partir de la relación de c=299.792.458 m·s<sup>-1</sup>, se obtiene la expresión del metro.
             img.mb-5(src="@/assets/curso/2.svg")
             p Con esto, podemos concluir que la definición del metro se da por la longitud de la distancia recorrida por la luz durante un intervalo de 1/299.792.458 segundos.
       .row(subtitulo="Concepto" titulo="Masa").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
           h3 Kilogramo
-      
         .col-md-10
-          .contenedor-acordeon.p-3
-            p.mb-5 El Kilogramo (kg), es la unidad del SI para la masa. Este se define al fijar el valor de la constante Planck (h), en 6,626 070 15 × 10-34, cuando se expresa en la unidad J·s, que es igual a kg·m2·s-1, donde el metro y el segundo están en función de c y ΔνCs.
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
+            p.mb-5 El Kilogramo (kg), es la unidad del SI para la masa. Este se define al fijar el valor de la constante Planck (h), en 6,626 070 15 × 10<sup>-34</sup>, cuando se expresa en la unidad J·s, que es igual a kg·m2·s<sup>-1</sup>, donde el metro y el segundo están en función de c y ΔνCs.
               br
               br
-              |De la relación exacta de h = 6,626 070 15 × 10-34 kg·m2·s-1, se obtiene la unidad de kg·m2·s-1, y de esta, la expresión para el kilogramo, que está en función de la constante de Planck.
+              |De la relación exacta de h = 6,626 070 15 × 10<sup>-34</sup> kg·m2·s<sup>-1</sup>, se obtiene la unidad de kg·m2·s<sup>-1</sup>, y de esta, la expresión para el kilogramo, que está en función de la constante de Planck.
             img.mb-5(src="@/assets/curso/3.svg")
             p.mb-5 A partir de esto, y con las definiciones del segundo y el metro, se obtiene la definición del kilogramo en función de las constantes h, ΔνCs y c:
-            img(src="@/assets/curso/4.svg")
-            p Basado en lo anterior, se define la unidad kg, m2 y s-1, unidades de las magnitudes físicas en acción y movimiento angular, junto con las definiciones del segundo y el metro; esto lleva a la definición para la unidad de masa en función de la constante Planck (h).
+            img.mb-5(src="@/assets/curso/4.svg")
+            p Basado en lo anterior, se define la unidad kg, m2 y s<sup>-1</sup>, unidades de las magnitudes físicas en acción y movimiento angular, junto con las definiciones del segundo y el metro; esto lleva a la definición para la unidad de masa en función de la constante Planck (h).
       .row(subtitulo="Concepto" titulo="Tiempo").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
-          h3 Segundos
+          h3 Segundo
       
         .col-md-10
-          .contenedor-acordeon.p-3
-            p.mb-5 El segundo (s), es la unidad del SI para el tiempo. Este se define al fijar el valor de la frecuencia de la transición hiperfina del estado fundamental no perturbado del átomo de Cesio 133 ΔνCs, en 9.192.631.770, cuando se expresa en Hz=s-1.
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
+            p.mb-5 El segundo (s), es la unidad del SI para el tiempo. Este se define al fijar el valor de la frecuencia de la transición hiperfina del estado fundamental no perturbado del átomo de Cesio 133 ΔνCs, en 9.192.631.770, cuando se expresa en Hz=s<sup>-1</sup>.
               br
               br
-              |De la relación exacta de ΔνCs=9.192.631.770 s-1, se obtiene la expresión para el segundo, que está en función de ΔνCs.
+              |De la relación exacta de ΔνCs=9.192.631.770 s<sup>-1</sup>, se obtiene la expresión para el segundo, que está en función de ΔνCs.
             img.mb-5(src="@/assets/curso/5.svg")
             p A partir de lo anterior, el segundo es la duración de 9.192.631,770 periodos de radicación en cuanto a la transición entre dos niveles hiperfinos del estado fundamental no perturbado del átomo del Cesio, 133.
       .row(subtitulo="Concepto" titulo="Intensidad de corriente eléctrica").p-4
@@ -87,54 +86,54 @@
           h3 Amperio (A)
       
         .col-md-10
-          .contenedor-acordeon.p-3
-            p.mb-5 El amperio (A), es la unidad del SI para la intensidad de una corriente eléctrica. Este se define al fijar el valor de la carga elemental (e), 1,602 176 634 × 10-19, cuando se expresa en la unidad C=A·s, donde el segundo se define en función de e y ΔνCs.
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
+            p.mb-5 El amperio (A), es la unidad del SI para la intensidad de una corriente eléctrica. Este se define al fijar el valor de la carga elemental (e), 1,602.176.634 × 10<sup>-19</sup>, cuando se expresa en la unidad C=A·s, donde el segundo se define en función de e y ΔνCs.
               br
               br
-              |De la relación exacta de e=1,602.176.634×10-19 A·s, se obtiene la definición del amperio en función de las constantes e y ΔνCs. 
+              |De la relación exacta de e=1,602.176.634×10<sup>-19</sup> A·s, se obtiene la definición del amperio en función de las constantes e y ΔνCs. 
             img.mb-5(src="@/assets/curso/6.svg")
-            p En esta definición, se concluye que el amperio es la corriente eléctrica en cuanto al flujo de 1/ (1,602.176.634×10-19) =6,241.509.074×1018 cargas elementales por segundo.
+            p En esta definición, se concluye que el amperio es la corriente eléctrica en cuanto al flujo de 1/ (1,602.176.634×10<sup>-19</sup>) =6,241.509.074×1018 cargas elementales por segundo.
       .row(subtitulo="Concepto" titulo="Temperatura termodinámica").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
           h3 Kelvin (K)
       
         .col-md-10
-          .contenedor-acordeon.p-3
-            p.mb-5 El Kelvin (K), es la unidad del SI para la temperatura en termodinámica. Este se define al fijar el valor de la constante de Boltzmann (k), 1,380 649 × 10-23, cuando se expresa en J·K-1=kg·m2·s-2·K-1, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
+            p.mb-5 El Kelvin (K), es la unidad del SI para la temperatura en termodinámica. Este se define al fijar el valor de la constante de Boltzmann (k), 1,380 649 × 10<sup>-23</sup>, cuando se expresa en J·K-1=kg·m2·s<sup>-2</sup>·K<sup>-1</sup>, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.
               br
               br
-              |De la relación exacta de k = 1,380 649 × 10-23 kg·m2·s-2·K-1, se obtiene la expresión para el Kelvin, que está en función de k, h y ΔνCs.
+              |De la relación exacta de k = 1,380 649 × 10<sup>-23</sup> kg·m2·s<sup>-2</sup>·K<sup>-1</sup>, se obtiene la expresión para el Kelvin, que está en función de k, h y ΔνCs.
             img.mb-5(src="@/assets/curso/7.svg")
-            p De acuerdo con lo anterior, se puede concluir que el Kelvin hace referencia a la variación de la temperatura termodinámica que da lugar, a su vez, a un cambio en la energía térmica de kT de 1,380.649×10-23J.
+            p De acuerdo con lo anterior, se puede concluir que el Kelvin hace referencia a la variación de la temperatura termodinámica que da lugar, a su vez, a un cambio en la energía térmica de kT de 1,380.649×10<sup>-23</sup>J.
       .row(subtitulo="Concepto" titulo="Cantidad de sustancia").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
           h3 Mol (mol)
       
         .col-md-10
-          .contenedor-acordeon.p-3
-            p.mb-5 El mol (mol) es la unidad del SI para la sustancia. Un mol contiene 6,02214076×1023 entidades elementales, el cual es el valor de la constante de Avogadro (NA), cuando se expresa en mol-1 se denomina como número de Avogadro.
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
+            p.mb-5 El mol (mol) es la unidad del SI para la sustancia. Un mol contiene 6,02214076×1023 entidades elementales, el cual es el valor de la constante de Avogadro (N<sub>A</sub>), cuando se expresa en mol<sup>-1</sup> se denomina como número de Avogadro.
               br
               br
               |La cantidad de sustancia (n) de un sistema, es una medida del número de entidades elementales especificadas, como un átomo, una molécula, un ion, un electrón, o cualquier otra partícula o grupo especificado de estas.
               br
               br
-              |De la relación exacta de NA=6.022.140.76×1023mol-1, se obtiene la definición de un mol en función de la constante NA.
+              |De la relación exacta de N<sub>A</sub>=6.022.140.76×1023mol<sup>-1</sup>, se obtiene la definición de un mol en función de la constante N<sub>A</sub>.
             img.mb-5(src="@/assets/curso/8.svg")
             p Teniendo en cuenta lo anterior, se puede definir el mol como la cantidad de sustancia de un sistema que contiene 6,022.140.76×1023 entidades elementales especificadas.
       .row(subtitulo="Concepto" titulo="Intensidad luminosa").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
-          h3 Candela (CD)
+          h3 Candela (cd)
       
         .col-md-10
-          .contenedor-acordeon.p-3
-            p.mb-5 La candela (cd) es la unidad del SI para la intensidad luminosa en una dirección dada. Este se define al fijar el valor de la eficacia luminosa de la radiación monocromática con una frecuencia de 540×1012 Hz, Kcd, en 683, cuando se expresa en lm·W-1=cd·sr·W-1 o cd·sr·kg-1·m-2·s3, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.
+          .contenedor-acordeon.p-3.ps-5.ps-md-0
+            p.mb-5 La candela (cd) es la unidad del SI para la intensidad luminosa en una dirección dada. Este se define al fijar el valor de la eficacia luminosa de la radiación monocromática con una frecuencia de 540×10<sup>12</sup> Hz, Kcd, en 683, cuando se expresa en lm·W<sup>-1</sup>cd·sr·W<sup>-1</sup> o cd·sr·kg<sup>-1</sup>·m<sup>-2</sup>·s<sup>3</sup>, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs. 
 
-              |De la relación exacta de Kcd=683cd·sr·kg-1·m-2·s3 se obtiene la definición para la candela:
+              |De la relación exacta de Kcd=683cd·sr·kg<sup>-1</sup>·m<sup>-2</sup>·s<sup>3</sup> se obtiene la definición para la candela:
             img.mb-5(src="@/assets/curso/9.svg")
-            p Con lo anterior, se puede definir la candela como la intensidad luminosa en una dirección dada, por una fuente que emite una radiación monocromática de frecuencia 540×1012 Hz, además, tiene una intensidad radiante en esa dirección, igual a 1/683 W/sr.
+            p Con lo anterior, se puede definir la candela como la intensidad luminosa en una dirección dada, por una fuente que emite una radiación monocromática de frecuencia 540×10<sup>12</sup> Hz, además, tiene una intensidad radiante en esa dirección, igual a 1/683 W/sr.
     Separador  
     #t_1_2.titulo-segundo(data-aos="slide-right")
       h2 1.2 Marcos de referencia
@@ -152,7 +151,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Enlace web
-                  p.text-small El tema en mención debe ser ampliado en Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D.F, Cengage Learning desde la página 59  
+                  p.text-small El tema en mención debe ser ampliado en Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D. F., Cengage Learning desde la página 59.  
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93223?page=59')" target="_blank")
                     span Enlace web
@@ -176,8 +175,8 @@
           p Además de tener el valor numérico (módulo) y sus unidades, también se deben especificar la dirección y el sentido.
     .titulo-sexto.color-acento-contenido
       h5.fw-normal
-        b Figura 1.  
-        | (Fundamentos de física. 2012). 
+        b Figura 
+        | Fundamentos de física, 2012
     .tarjeta-amarilla(data-aos="zoom-in-up").p-5.mb-5.m-auto
       .row.justify-content-center
         .col-lg-4.mb-5.mb-lg-0
@@ -211,7 +210,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Enlace web
-                  p.text-small Más información sobre el tema la encontrará en el siguiente enlace, Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D.F, Cengage Learning desde la página 89.  
+                  p.text-small Más información sobre el tema la encontrará en el siguiente enlace, Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D. F., Cengage Learning desde la página 89.  
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93223?page=89')" target="_blank")
                     span Enlace web
@@ -219,7 +218,6 @@
     Separador
     #t_1_4.titulo-segundo(data-aos="slide-right")
       h2 1.4 Operaciones con vectores 
-    p.mb-5 Todas las magnitudes son medibles, son comparables con la unidad y la cantidad que contiene, ejemplo la longitud, su unidad es el metro (m)  Luego si se tiene que, una medida es de 10 metros, quiere decir que, tiene 10 cantidades de metros.  
     .hover-personaje.d-flex.mb-3
       .hover-personaje_img.d-flex.p-3.justify-content-center.align-items-center
         .personaje
@@ -237,7 +235,7 @@
       .hover-personaje_contenido.py-3.px-5.w-100.d-flex.align-items-center
         .textos
           h4 Suma de vectores
-          p La suma de vectores se define mediante la ley del paralelogramo, es decir, la suma de los cuadrados de los cuatro lados de un paralelogramo es igual a la suma de los cuadrados de las dos diagonales. La suma de dos vectores A y B, se obtiene uniéndose en un mismo punto R y construyendo un paralelogramo que tiene por lados a A y B siendo la suma vectorial la diagonal que pasa por el punto R. de este. 
+          p La suma de vectores se define mediante la ley del paralelogramo, es decir, la suma de los cuadrados de los cuatro lados de un paralelogramo es igual a la suma de los cuadrados de las dos diagonales. La suma de dos vectores A y B, se obtiene uniéndose en un mismo punto R y construyendo un paralelogramo que tiene por lados a A y B siendo la suma vectorial la diagonal que pasa por el punto R de este. 
     .hover-personaje.d-flex.mb-3
       .hover-personaje_img.d-flex.p-3.justify-content-center.align-items-center
         .personaje
@@ -255,7 +253,7 @@
       .hover-personaje_contenido.py-3.px-5.w-100.d-flex.align-items-center
         .textos
           h4 Resta de vectores
-          p La resta de vectores es la suma de un vector por su opuesto.
+          p La resta de los vectores A - B, es la suma del vector A con el negativo del vector B.
     .hover-personaje.d-flex.mb-5
       .hover-personaje_img.d-flex.p-3.justify-content-center.align-items-center
         .personaje
@@ -275,7 +273,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Enlace web
-                  p.text-small Para profundizar acerca de este tema ingrese al enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D.F, Cengage Learning desde la página 95.  
+                  p.text-small Para profundizar acerca de este tema ingrese al enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D. F., Cengage Learning desde la página 95.  
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93202?page=95')" target="_blank")
                     span Enlace web
@@ -309,6 +307,9 @@ export default {
 
 <style lang="sass" scoped>
 .contenedor-acordeon
+  p, img
+    padding-left: 20px
+
   position: relative
   &:before
     content: ''

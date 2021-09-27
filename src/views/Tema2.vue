@@ -15,7 +15,7 @@
         .titulo-sexto.color-acento-contenido
           h5.fw-normal
             b Figura 4.  
-            | Trayectoria de una partícula (P) en el plano (x,y,z). (Arenas, F. C. 2020).
+            | Trayectoria de una partícula (P) en el plano (x, y, z). (Arenas, F. C. 2020).
         img.mb-5(src="@/assets/curso/14.svg")
     #t_2_1.titulo-segundo(data-aos="slide-right")
       h2 2.1 Conceptos básicos 
