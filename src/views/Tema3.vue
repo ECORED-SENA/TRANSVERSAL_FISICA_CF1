@@ -6,13 +6,13 @@
       .titulo-principal__numero
         span 3
       h1 Dinámica
-    p.mb-5 La dinámica obedece al movimiento, en física esto se refiere a la relación que existe entre los acontecimientos, las causas que lo provocan, sus cambios y el tiempo en que estos suceden. 
+    p.mb-5 <b>La dinámica</b> obedece al movimiento, en física esto se refiere a la relación que existe entre los acontecimientos, las causas que lo provocan, sus cambios y el tiempo en que estos suceden. 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     Separador
-    #t_3_1_.titulo-segundo(data-aos="slide-right")
+    #t_3_1.titulo-segundo(data-aos="slide-right")
       h2 3.1 Primera ley de Newton 
     .row.justify-content-center.mb-5
       .col-md-8
@@ -33,7 +33,9 @@
     p.mb-5 El movimiento se define como el desplazamiento que tienen los cuerpos en un espacio, frente a otro cuerpo, y es relativo, ya que depende de la posición del observador. La fuerza es la acción que tiene un cuerpo sobre otro y la masa es la magnitud que mide la cantidad de materia que tiene un cuerpo.
     figure.mb-5(data-aos="zoom-in-up")
       img(src='@/assets/curso/39.svg')
-    p.mb-5 La primera ley de Newton o ley de inercia, indica que todo cuerpo conserva su estado, en reposo o en movimiento uniforme y rectilíneo, si ninguna fuerza interviene sobre él para cambiar su estado. La inercia mecánica obedece cuando no se puede alterar el estado del movimiento o el reposo de un cuerpo. La inercia térmica es cuando un cuerpo se resiste al cambio en su temperatura si está en contacto con otros cuerpos o al ser sometido a calentamiento.
+    p.mb-5 
+      b La primera ley de Newton o ley de inercia, 
+      | indica que todo cuerpo conserva su estado, en reposo o en movimiento uniforme y rectilíneo, si ninguna fuerza interviene sobre él para cambiar su estado. La inercia mecánica obedece cuando no se puede alterar el estado del movimiento o el reposo de un cuerpo. La inercia térmica es cuando un cuerpo se resiste al cambio en su temperatura si está en contacto con otros cuerpos o al ser sometido a calentamiento.
     .row.mb-5.justify-content-center
       .col-md-10
         figure.mb-5(data-aos="zoom-in-up")
@@ -54,49 +56,56 @@
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='6' aria-label='Slide 7')
             button(type='button' data-bs-target='#carouselExampleIndicators' data-bs-slide-to='7' aria-label='Slide 1')
           .carousel-inner.bg-amarillo
-            .carousel-item.active.px-5
+            .carousel-item.active.px-5.py-2
               .row.px-2.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/41.svg')
                 .col-md-10
                   h4 La fuerza de gravedad (peso)
                   p Es la fuerza que ejerce la tierra sobre los cuerpos que están cerca o sobre ella, esto también aplica para los cuerpos celestes en el universo, cada fuerza en cada astro es diferente. ¿Por qué la fuerza de gravedad de cada planeta es diferente?
-            .carousel-item.px-5
+            .carousel-item.px-5.py-2
               .row.px-5.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/42.svg')
                 .col-md-10
                   h4 El Peso (P) 
-                  p.mb-0 Es directamente proporcional a la multiplicación de la masa (m) por la aceleración de la gravedad (g). P = mg; para el caso de la tierra el valor de g es 9.81 m/s2.
-            .carousel-item.px-5
+                  p.mb-0 Es directamente proporcional a la multiplicación de la masa 
+                    b (m) 
+                    | por la aceleración de la gravedad 
+                    b (g)
+                    |. 
+                    b P = mg; 
+                    | para el caso de la tierra el valor de g es 
+                    b 9.81 m/s<sup>2</sup>.
+            .carousel-item.px-5.py-2
               .row.px-2.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/43.svg')
                 .col-md-10
                   h4 La masa (m)  
                   p.mb-0 Depende de la cantidad de materia o sustancia contenida en un cuerpo.
-            .carousel-item.px-5
+            .carousel-item.px-5.py-2
               .row.px-2.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/44.svg')
                 .col-md-10
                   h4 La fuerza normal (N) 
                   p.mb-0 Es la fuerza de reacción que ejerce la superficie de contacto con el cuerpo y es igual, pero en sentido contrario al peso del objeto.
-            .carousel-item.px-5
+            .carousel-item.px-5.py-2
               .row.px-2.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/45.svg')
                 .col-md-10
                   h4 Tensión (T) 
                   p.mb-0 Es la fuerza opuesta a la que se somete un cuerpo.
-            .carousel-item.px-5
+            .carousel-item.px-5.py-2
               .row.px-2.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/46.svg')
                 .col-md-10
-                  h4 Fuerza de roce estático (fs) y fuerza de roce cinético (fk),
+                  h4 Fuerza de roce estático (f<sub>s</sub>) y fuerza de roce cinético (f<sub>k</sub>)
                   p.mb-0 Son las fuerzas que existen entre dos superficies en contacto.
-            .carousel-item.px-5
+            .carousel-item.px-5.py-2
               .row.px-2.py-3.mx-5.align-items-center
                 .col-md-2
                   img(src='@/assets/curso/47.svg')
@@ -126,11 +135,11 @@
     Separador
     #t_3_4.titulo-segundo(data-aos="slide-right")
       h2 3.4 Equilibrio dinámico
-    p.mb-5 En las personas, es la capacidad de permanecer erguido y estable mientras se realiza movimiento o acciones, esto se logra variando su punto de gravedad. Visto de otro modo, es que un cuerpo mantenga una posición estable ante las fuerzas que actúan sobre él. La forma de hacer que esto ocurra es que intervengan procesos opuestos con la misma magnitud, es decir que, la suma de las componentes (x,y) de las fuerzas que actúan en el objeto deben ser iguales a cero. Existe equilibrio estático cuando las fuerzas que actúan sobre el cuerpo se encuentran balanceadas.
+    p.mb-5 En las personas, es la capacidad de permanecer erguido y estable mientras se realiza movimiento o acciones, esto se logra variando su punto de gravedad. Visto de otro modo, es que un cuerpo mantenga una posición estable ante las fuerzas que actúan sobre él. La forma de hacer que esto ocurra es que intervengan procesos opuestos con la misma magnitud, es decir que, la suma de las componentes (x, y) de las fuerzas que actúan en el objeto deben ser iguales a cero. Existe equilibrio estático cuando las fuerzas que actúan sobre el cuerpo se encuentran balanceadas.
     Separador
     #t_3_5.titulo-segundo(data-aos="slide-right") 
       h2 3.5 Tercera ley de Newton 
-    p.mb-5 La tercera ley de Newton se refiere a la de acción y reacción, indica que, si un objeto (A) aplica una fuerza a un cuerpo (B), éste aplica la misma fuerza, pero en sentido contrario a dicho objeto (A). La expresión matemática es: la fuerza que A ejerce sobre B (FAB), es igual, pero negativa a la fuerza que B ejerce sobre A (-FBA)*FAB = - FBA.
+    p.mb-5 La tercera ley de Newton se refiere a la de acción y reacción, indica que, si un objeto (A) aplica una fuerza a un cuerpo (B), éste aplica la misma fuerza, pero en sentido contrario a dicho objeto (A). La expresión matemática es: la fuerza que A ejerce sobre B (F<sub>AB</sub>), es igual, pero negativa a la fuerza que B ejerce sobre A (-F<sub>BA</sub>)·F<sub>AB</sub> = - F<sub>BA</sub>.
     figure.mb-5
       img(src='@/assets/curso/52.svg')(data-aos="zoom-in-up")
     Separador
@@ -138,7 +147,7 @@
       h2 3.6  Inercia rotacional de los cuerpos sólidos
     .row.mb-5
       .col-lg-8(data-aos="slide-right")
-        p Es un valor escalar y describe la propiedad que tienen los objetos de poder girar alrededor de un eje determinado y depende de la distribución de la masa con respecto a su eje. También indica la dificultad que tienen los cuerpos de cambiar su velocidad de rotación. La Inercia rotacional (I) indica que cuando la masa se aleja del eje de rotación es más difícil cambiar su velocidad. 
+        p Es un valor escalar y describe la propiedad que tienen los objetos de poder girar alrededor de un eje determinado y depende de la distribución de la masa con respecto a su eje. También indica la dificultad que tienen los cuerpos de cambiar su velocidad de rotación. <b>La inercia rotacional (I)</b> indica que cuando la masa se aleja del eje de rotación es más difícil cambiar su velocidad. 
           br
           br
           |La inercia rotacional es directamente proporcional a la masa por el radio del objeto. 
@@ -146,14 +155,14 @@
           br
           |La relación de la inercia rotacional y la segunda ley de Newton se deben a que el movimiento ejerce una fuerza denominada tangencial y se debe a la aceleración (tangencial) por la masa del objeto.
       .col-lg-4(data-aos="slide-left")
+        .recuadro-verde.px-5.py-3.d-flex.justify-content-end.my-5
+          .contenido.w-90.ps-5
+            p.fw-bold.mb-0 I = mr<sup>2</sup>
         .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
           .contenido.w-90.ps-5
-            p.fw-bold.mb-0 I = mr2
-        .recuadro-verde.px-5.py-3.d-flex.justify-content-end
-          .contenido.w-90.ps-5
-            p.fw-bold.mb-0 Fuerza tangencial (Ft): 
+            p.fw-bold.mb-0 Fuerza tangencial (F<sub>t</sub>): 
               br
-              |FT  = maT =  mRα
+              |F<sub>T</sub>  = ma<sub>T</sub> =  mRα
     Separador
     #t_3_7.titulo-segundo(data-aos="slide-right")
       h2 3.7 Equilibrio rotacional
@@ -171,13 +180,16 @@
           |es la fuerza.
           br
           b m1 
-          |y m2 las masas de los cuerpos que interactúan.
+          |y 
+          b m2 
+          | las masas de los cuerpos que interactúan.
           br
-          b r e
-          |s la distancia entre los centros de masa.
+          b r
+          |es la distancia entre los centros de masa.
           br
-          b G e
-          |s la constante gravitatoria.
+          b G 
+          
+          |es la constante gravitatoria.
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
         .tarjeta.color-acento-contenido.p-3.mb-5

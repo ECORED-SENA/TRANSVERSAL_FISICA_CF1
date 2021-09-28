@@ -6,7 +6,7 @@
       .titulo-principal__numero
         span 7
       h1 Oscilaciones y ondas
-    p.mb-5 Se denomina oscilación a una variación, perturbación o fluctuación en el tiempo de un medio o sistema. En física, química e ingeniería es el movimiento repetido en torno a una posición central, o posición de equilibrio. El estudio de las oscilaciones también se utiliza como punto de partida para describir las ondas. Una onda consiste en la propagación de una perturbación de alguna propiedad del espacio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, implicando un transporte de energía sin transporte de materia. El espacio perturbado puede contener materia (aire, agua, etc.) o no (vacío)
+    p.mb-5 Se denomina oscilación a una variación, perturbación o fluctuación en el tiempo de un medio o sistema. En física, química e ingeniería es el movimiento repetido en torno a una posición central, o posición de equilibrio. El estudio de las oscilaciones también se utiliza como punto de partida para describir las ondas. Una onda consiste en la propagación de una perturbación de alguna propiedad del espacio, por ejemplo, densidad, presión, campo eléctrico o campo magnético, implicando un transporte de energía sin transporte de materia. El espacio perturbado puede contener materia (aire, agua, etc.) o no (vacío).
     figure.mb-5(data-aos="zoom-in-up")
       img(src="@/assets/curso/77.jpg")
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
@@ -20,11 +20,11 @@
                 .col.mb-3.mb-sm-0
                   h4.mb-1 e-libro
                   p.text-small 
-                    | Para ampliar la información en Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor - Universitas. Recuperado de capítulo 15 acústica.
+                    | Para ampliar la información en Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor - Universitas. Recuperado de capítulo 15 Acústica.
                     br
                     br
 
-                    |Para profundizar en el tema puede acceder en el siguiente enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D.F, Cengage Learning. Capítulo 17 ondas sonoras. 
+                    |Para profundizar en el tema puede acceder en el siguiente enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 1 (9a. ed.). México, D. F., Cengage Learning. Capítulo 17 Ondas sonoras. 
 
                 .col-sm-auto.d-flex.flex-column
                   a.boton.color-acento-botones.mb-3(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/174517?page=320')" target="_blank")

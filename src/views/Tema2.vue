@@ -27,14 +27,14 @@
       
         .col-md-7
           figure
-            img(src='@/assets/curso/15.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/15.png', alt='Texto que describa la imagen')
       .row
         .col-md-5.mb-4.mb-md-0
           h5 El plano de coordenadas cartesianas
           p Es el que permite la ubicación de los objetos en el espacio, dando la posibilidad de hacer la representación gráfica de las relaciones matemáticas, del movimiento o la posición en la física.  
             br
             br
-            |En el sistema bidimensional (dos dimensiones) se consideran el eje x y eje y; plano (x,y). Para el caso de los sistemas en tres dimensiones se tiene en cuenta un tercer eje (eje z), plano (x,y,z).
+            |En el sistema bidimensional (dos dimensiones) se consideran el eje x y eje y; plano (x, y). Para el caso de los sistemas en tres dimensiones se tiene en cuenta un tercer eje (eje z), plano (x, y, z).
       
         .col-md-7
           figure
@@ -49,7 +49,7 @@
             img(src='@/assets/curso/17.svg', alt='Texto que describa la imagen')
       .row
         .col-md-5.mb-4.mb-md-0
-          h5 Un objeto está en reposo. 
+          h5 Un objeto está en reposo
           p Cuando los objetos no presentan variación en el tiempo. Ejemplo de esto es si al frente del poste de energía instalamos una estatua. Estos permanecerán allí en el transcurso del tiempo si tener cambios en sus posiciones.
       
         .col-md-7
@@ -90,14 +90,16 @@
       .row
         .col-md-5.mb-4.mb-md-0
           h5 La distancia 
-          p Es la longitud recorrida por un cuerpo de un punto a otro, por ejemplo del punto A al punto B, o ubicados en el plano cartesiano, del punto (x0,y0) al (x1,y1). Indica el desplazamiento de la partícula.
+          p Es la longitud recorrida por un cuerpo de un punto a otro, por ejemplo del punto A al punto B, o ubicados en el plano cartesiano, del punto (x<sub>0</sub>,y<sub>0</sub>) al (x<sub>1</sub>,y<sub>1</sub>). Indica el desplazamiento de la partícula.
       
         .col-md-7
           figure
             img(src='@/assets/curso/23.svg', alt='Texto que describa la imagen')
       .row
         .col-md-5.mb-4.mb-md-0
-          h5 La velocidad (v) 
+          h5 La velocidad 
+            span.color-amarillo
+              |(v) 
           p Es una magnitud vectorial la cual indica que tiene dirección y sentido, se calcula dividiendo la distancia por la unidad de tiempo empleado en hacer ese recorrido. 
       
         .col-md-7
@@ -110,7 +112,7 @@
       
         .col-md-7
           figure
-            img(src='@/assets/curso/25.svg', alt='Texto que describa la imagen')
+            img(src='@/assets/curso/25.png', alt='Texto que describa la imagen')
       .row
         .col-md-5.mb-4.mb-md-0
           h5 La aceleración (a) 
@@ -122,18 +124,18 @@
       .row
         .col-md-5.mb-4.mb-md-0
           h5 La aceleración de la gravedad  (g)
-          p es una magnitud vectorial que, obedece a la aceleración experimentada debido a la gravedad que ejerce la tierra en un cuerpo al dejarlo caer.  
+          p Es una magnitud vectorial que, obedece a la aceleración experimentada debido a la gravedad que ejerce la tierra en un cuerpo al dejarlo caer.  
       
         .col-md-7
           figure
             img(src='@/assets/curso/27.svg', alt='Texto que describa la imagen')
     Separador 
     #t_2_2.titulo-segundo(data-aos="slide-right")
-      h2 2.2 Movimiento uniforme (MU)
+      h2 2.2 Movimiento Uniforme (MU)
     .row.mb-5
       .col-lg-6(data-aos="slide-right")
         p.mb-5 El mundo está constantemente en movimiento, todo cambia con respecto al tiempo y existen diferentes razones de cambios en los objetos. El MU o movimiento rectilíneo uniforme (MRU) se da cuando un objeto avanza en una trayectoria recta a una velocidad constante, debido a que su aceleración es nula (0). Es de notar que, en el MRU la dirección también es constante y la distancia se calcula al multiplicar la velocidad por el tiempo del recorrido. 
-        .recuadro-verde.px-5.py-3.d-flex.justify-content-end
+        .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
           .contenido.w-90.ps-2
             h5 Las ecuaciones del MRU:
             p.fw-bold.mb-0 x = x0 + v⋅t
@@ -144,29 +146,29 @@
       .col-lg-6(data-aos="slide-left")
         .titulo-sexto.color-acento-contenido
           h5.fw-normal
-            b Figura 5.   
-            | Describe el desplazamiento de una partícula del punto 0 al punto A y luego del punto A al punto B
+            b Figura.   
+            | Descripción del desplazamiento de una partícula del punto 0 al punto A y luego del punto A al punto B
         figure
           img(src='@/assets/curso/28.svg', alt='Texto que describa la imagen')
           figcaption Nota.  (Arenas, F. C. 2020)
     Separador
     #t_2_3.titulo-segundo(data-aos="slide-right")
-      h2 2.3 Movimiento uniformemente acelerado (MUA)
+      h2 2.3 Movimiento Uniformemente Acelerado (MUA)
     .row.mb-5
       .col-lg-6(data-aos="slide-right")
         p.mb-5 El MUA o movimiento rectilíneo uniforme acelerado (MRUA) es también llamado movimiento rectilíneo uniforme variado (MRUV) y cambia con respecto al MU porque en él, la partícula está sometida a una aceleración constante.   
-        .recuadro-verde.px-5.py-3.d-flex.justify-content-end
+        .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
           .contenido.w-90.ps-2
             h5 Ecuaciones del MUA: 
-            p.fw-bold.mb-0 v = v0 + at
+            p.fw-bold.mb-0 v = v<sub>0</sub> + at
               br
-              |x = x0 + v0t + ½ at2
+              |x = x<sub>0</sub> + v<sub>0</sub>t + ½ at<sup>2</sup>
               br
-              |a=cte
+              |a=cte.
       .col-lg-6(data-aos="slide-left")
         .titulo-sexto.color-acento-contenido
           h5.fw-normal
-            b Figura 6.   
+            b Figura.   
             | Movimiento de una partícula que desacelera y finaliza con velocidad cero (V=0) 
         figure
           img(src='@/assets/curso/29.svg', alt='Texto que describa la imagen')
@@ -176,16 +178,19 @@
       h2 2.4 Caída libre
     .row.mb-5
       .col-lg-6(data-aos="slide-right")
-        p.mb-5 La caída libre es el movimiento influenciado por la aceleración de la gravedad (g) y se debe al incremento de la velocidad por la unidad de tiempo, que un cuerpo se deja caer.    
+        p.mb-5 La caída libre es el movimiento influenciado por la aceleración de la gravedad 
+          spam.texto-verde 
+            |(g)  
+          |y se debe al incremento de la velocidad por la unidad de tiempo, de un cuerpo que se deja caer.    
       .col-lg-6(data-aos="slide-left")
-        .recuadro-verde.px-5.py-3.d-flex.justify-content-end
+        .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
           .contenido.w-90.ps-2
             h5 Ecuaciones de la caída libre:
             .row
               .col-4
                 p.fw-bold.mb-0 a = - g
                   br
-                  |h = h0 - ½ gt²
+                  |h = h<sub>0</sub> - ½ gt²
               .col-4
                 p.fw-bold.mb-0 v = - gt
                   br
@@ -218,18 +223,22 @@
     .row.mb-5
       .col-lg-6(data-aos="slide-right")
         p.mb-5 En el movimiento de proyectiles se describe un movimiento parabólico donde la partícula hace un movimiento con componente horizontal (eje x) y vertical (eje y). El movimiento y distancia del recorrido va a depender en gran medida del ángulo y la velocidad de lanzamiento del objeto.  
-        .recuadro-verde.px-5.py-3.d-flex.justify-content-end
+        .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
           .contenido.w-90.ps-2
             h5 Ecuaciones del movimiento de proyectiles: 
-            p.fw-bold.mb-0 Velocidad: vx = v0cos Ɵ0	vy = vosenƟ0 – gt
+            p.fw-bold.mb-0 
+              spam.h5 Velocidad: 
+              | v<sub>x</sub> = v<sub>0</sub>cos Ɵ<sub>0</sub>	v<sub>y</sub> = vosenƟ<sub>0</sub> – gt
               br
-              |Alcance en x: L = x0 + v0cos Ɵ0 t
+              spam.h5 Alcance en x: 
+              | L = x<sub>0</sub> + v<sub>0</sub>cos Ɵ<sub>0</sub> t
               br
-              |Altura máxima: h = yo + (vo2 sen2Ɵ0 / 2g)
+              spam.h5 Altura máxima: 
+              | h = yo + (vo<sup>2</sup> sen<sup>2</sup>Ɵ<sub>0</sub> / 2g)
       .col-lg-6(data-aos="slide-left")
         .titulo-sexto.color-acento-contenido
           h5.fw-normal
-            b Figura 8.   
+            b Figura.   
             | Movimiento de proyectil
         figure
           img(src='@/assets/curso/35.svg', alt='Texto que describa la imagen')
@@ -245,7 +254,7 @@
       .col-lg-6(data-aos="slide-left")
         .titulo-sexto.color-acento-contenido
           h5.fw-normal
-            b Figura 9.   
+            b Figura.   
             |  Movimiento circular uniforme
         figure
           img(src='@/assets/curso/36.svg', alt='Texto que describa la imagen')
@@ -264,13 +273,13 @@
                     b Para profundizar sobre los movimientos anteriormente descritos puede consultar los siguientes libros:
                     br
                     br
-                    |Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D.F, Cengage Learning Capítulos 2 y 3 a partir de la página 58
+                    |Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D. F., Cengage Learning Capítulos 2 y 3 a partir de la página 58.
                     br
                     br
-                    |Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor – Universitas Capítulo 3 cinemática. 
+                    |Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor – Universitas Capítulo 3 Cinemática. 
 
                 .col-sm-auto.d-flex.flex-column
-                  a.boton.color-acento-botones.mb-3(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93223?page=58')" target="_blank")
+                  a.boton.color-acento-botones.mb-4(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93223?page=58')" target="_blank")
                     span Enlace web
                     i.fas.fa-link
                   a.boton.color-acento-botones(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/174517?page=60')" target="_blank")
@@ -306,5 +315,7 @@ export default {
   &_titulo
     background-color: $color-acento-contenido
   &_contenido
-    background-color: lighten($color-acento-contenido, 33%)
+    background-color: lighten($color-acento-contenido, 37%)
+.color-amarillo
+  color: $color-acento-contenido
 </style>

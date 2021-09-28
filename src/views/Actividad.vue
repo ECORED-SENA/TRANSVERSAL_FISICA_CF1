@@ -12,7 +12,7 @@
         .titulo-segundo
           h2 Actividad didáctica 1
         p.mb-4 Estimado aprendiz, en esta actividad tiene un reto, calcular la velociad de un barco que recorre una distancia de 
-          b 1055 m
+          b 1055 m 
           | en 
           b 69 segundos. 
         .tarjeta.tarjeta--azul.p-3
@@ -32,7 +32,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 2
-        p.mb-4 De acuerdo con los conceptos asociados a la mecánica clásica utilizados en el material de estudio, ordene las letras que conforman cada palabra
+        p.mb-4 De acuerdo con los conceptos asociados a la mecánica clásica utilizados en el material de estudio, ordene las letras que conforman cada palabra.
         .tarjeta.tarjeta--azul.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

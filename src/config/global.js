@@ -29,7 +29,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Variables físicas y Sistema de Unidades',
+            titulo: 'Variables físicas y sistema de unidades',
             hash: 't_1_1',
           },
           {
@@ -68,19 +68,19 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Movimiento rectilíneo uniforme',
+            titulo: 'Movimiento Uniforme (MU)',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Movimiento uniformemente acelerado',
+            titulo: 'Movimiento Uniformemente Acelerado (MUA)',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Caída libre.',
+            titulo: 'Caída libre',
             hash: 't_2_4',
           },
           {
@@ -131,7 +131,7 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '3.4',
-            titulo: 'Clasificación de tejidos',
+            titulo: 'Equilibrio dinámico',
             hash: 't_3_4',
           },
           {
@@ -260,25 +260,25 @@ export default {
   referencias: [
     {
       referencia:
-        'Arenas, F. C. (2020). Física universitaria. Córdoba, Jorge Sarmiento Editor - Universitas.',
+        'Arenas, F. C. (2020). Física universitaria. Córdoba, Jorge Sarmiento Editor - Universitas. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/174517?page=1',
     },
     {
       referencia:
-        'Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (2015). Física para ciencias e ingeniería Vol. 1 (9a. ed.). México, D.F, Cengage.',
+        'Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (2015). Física para ciencias e ingeniería Vol. 1 (9a. ed.). México, D. F., Cengage. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93202?page=35',
     },
     {
       referencia:
-        'Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D.F, Cengage. ',
+        'Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 1 (9a. ed.). México, D. F., Cengage. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93223?page=59',
     },
     {
       referencia:
-        'Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 2 (9a. ed.). Cengage.',
+        'Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 2 (9a. ed.). Cengage. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93203?page=30',
     },
@@ -312,7 +312,7 @@ export default {
     {
       termino: 'Oído',
       significado:
-        'Órgano corporal que sirve para oír; en el hombre y en los animales superiores es par, se halla situado a ambos lados de la cabeza y consta de oído externo (u oreja) oído medio (o caja del tímpano) y oído interno (o laberinto)',
+        'Órgano corporal que sirve para oír; en el hombre y en los animales superiores es par, se halla situado a ambos lados de la cabeza y consta de oído externo (u oreja) oído medio (o caja del tímpano) y oído interno (o laberinto).',
     },
     {
       termino: 'Eco',
@@ -328,21 +328,21 @@ export default {
   complementario: [
     {
       texto:
-        'Moreno M. y Heredia A. Ejercicios de Física. Dinámica, DFISTS Escuela Politécnica Superior Universidad de Alicante, recuperado de https://web.ua.es/es/cursos-cero/documentos/-gestadm/dinamica-ejercicios.pdf',
-      tipo: 'Cuadernillo de ejercicios resueltos.',
+        'Moreno M. y Heredia A. Ejercicios de Física. Dinámica, DFISTS Escuela Politécnica Superior Universidad de Alicante.',
+      tipo: 'Cuadernillo de ejercicios resueltos',
       descarga: 'downloads/dinamica-ejercicios.pdf',
     },
     {
       texto:
-        'Franco G. (2008). Fundamentos físicos. Principio de conservación de la energía, recuperado de http://www.sc.ehu.es/sbweb/ocw-fisica/problemas/dinamica/trabajo/problemas/energia1_problemas.xhtml',
+        'Franco G. (2008). Fundamentos físicos. Principio de conservación de la energía.',
       tipo: 'Libro',
       link:
         'http://www.sc.ehu.es/sbweb/ocw-fisica/problemas/dinamica/trabajo/problemas/energia1_problemas.xhtml',
     },
     {
       texto:
-        'Chi D. (2016). Problemas Propuestos y Resueltos de Electromagnetismo, recuperado de http://www.das.uchile.cl/~simon/docencia/fi2002_2016a Problemas_Propuestos_y_Resueltos_de_Electromagnetismo_RChi.pdf',
-      tipo: 'Cuadernillo de ejercicios.',
+        'Chi D. (2016). Problemas Propuestos y Resueltos de Electromagnetismo.',
+      tipo: 'Cuadernillo de ejercicios',
       descarga:
         'downloads/Problemas_Propuestos_y_Resueltos_de_Electromagnetismo_RChi.pdf',
     },

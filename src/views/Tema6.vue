@@ -15,11 +15,11 @@
           br
           br
           |Es un campo vectorial en el cual una carga eléctrica puntual de valor q sufre los efectos de una fuerza eléctrica F dada por la siguiente ecuación: 
-        .recuadro-verde.px-5.py-3.d-flex.justify-content-end
+        .recuadro-verde.px-5.py-3.d-flex.justify-content-end.my-5
           .contenido.w-90.ps-2
             p.fw-bold.mb-0 F = qE 
               br
-              |q = carga eléctrica = 1.602*10 -19 Coulomb.
+              |q = carga eléctrica = 1.602*10<sup>-19</sup> Coulomb.
       .col-lg-6(data-aos="slide-left"): img(src="@/assets/curso/76.svg")
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
@@ -31,7 +31,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 Enlace web
-                  p.text-small Para más información sobre el tema, puede acceder al siguiente enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 2 (9a. ed.). México, D.F, Cengage Learning en la parte 4 electricidad y magnetismo. 
+                  p.text-small Para más información sobre el tema, puede acceder al siguiente enlace, Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (Ed.) (2015). Física para ciencias e ingeniería. Vol. 2 (9a. ed.). México, D. F., Cengage Learning en la parte 4 electricidad y magnetismo. 
 
                 .col-sm-auto.d-flex.flex-column
                   a.boton.color-acento-botones.mb-3(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93203?page=30')" target="_blank")

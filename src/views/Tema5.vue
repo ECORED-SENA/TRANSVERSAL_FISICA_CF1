@@ -36,11 +36,11 @@
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Tercer Principio
-            p Indica que es imposible que se alcance el cero absoluto con un número finito de transformaciones y postula algunas propiedades en el cero absoluto de temperatura, esta ley establece que la entropía (grado de desorden molecular) para un sólido perfectamente cristalino, a la temperatura de 0 kelvin es igual a 0. 
+            p Indica que es imposible que se alcance el cero absoluto con un número finito de transformaciones y postula algunas propiedades en el cero absoluto de temperatura, esta ley establece que la entropía (grado de desorden molecular) para un sólido perfectamente cristalino, a la temperatura de 0 Kelvin es igual a 0. 
           .col-md-6
             figure
               img(src='@/assets/curso/60.jpg', alt='Texto que describa la imagen')
-    #t_5_1_.titulo-segundo(data-aos="slide-right")
+    #t_5_1.titulo-segundo(data-aos="slide-right")
       h2 5.1 Parámetros termodinámicos fundamentales
     p.mb-5 Los parámetros termodinámicos son magnitudes físicas de carácter macroscópico que se pueden medir en un sistema termodinámico. La temperatura del sistema y el campo magnético presente son parámetros termodinámicos, mientras que la velocidad o la posición de alguna de las partículas que conforman el sistema no lo son. Dado que los parámetros termodinámicos del sistema están especificados por el estado termodinámico en que se encuentra el sistema, también reciben el nombre de variables de estado o funciones de estado.
     .row.mb-5(data-aos="zoom-in-up")
@@ -66,7 +66,7 @@
             .icono
               img(src='@/assets/curso/65.svg', alt='Texto que describa la imagen')
           h4 Variables termodinámicas
-          p Tienen relación con el estado interno de un sistema, también llamadas coordenadas termodinámicas, y entre ellas las más importantes son: la masa (m), el volumen (V), la densidad, la presión (P), la temperatura (T) y la Constante de proporcionalidad (k).
+          p Tienen relación con el estado interno de un sistema, también llamadas coordenadas termodinámicas, y entre ellas las más importantes son: la masa (m), el volumen (V), la densidad, la presión (P), la temperatura (T) y la constante de proporcionalidad (k).
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -102,7 +102,7 @@
             .icono
               img(src='@/assets/curso/65.svg', alt='Texto que describa la imagen')
           h4 Propiedades extensivas
-          p Dependen de la cantidad de sustancias del sistema, son recíprocamente equivalentes a las intensivas. Algunos ejemplos de propiedades extensivas son la masa, el volumen, el peso, cantidad de sustancia, energía, entropía, entalpia, etc. 
+          p Dependen de la cantidad de sustancias del sistema, son recíprocamente equivalentes a las intensivas. Algunos ejemplos de propiedades extensivas son la masa, el volumen, el peso, cantidad de sustancia, energía, entropía, entalpía, etc. 
 
       .col-md-6.col-xl.mb-4.mb-xl-0
         //- .tarjeta-numerada debe ir acompañado de una de una de estas clases => 
@@ -115,13 +115,13 @@
               img(src='@/assets/curso/65.svg', alt='Texto que describa la imagen')
           h4 Estado de un sistema
           p Un sistema que puede describirse en función de coordenadas termodinámicas se llama sistema termodinámico y la situación en la que se encuentra definido por dichas coordenadas se llama estado del sistema. 
-    p.mb-5 La Clasificación de los sistemas termodinámicos, se debe al grado de aislamiento del entorno y se describen a continuación:
+    p.mb-5 La clasificación de los sistemas termodinámicos, se debe al grado de aislamiento del entorno y se describen a continuación:
     .row.mb-5
       .col-lg-4
         .contenedor.h-100.p-4
           .img.p-2.mb-3.d-flex.justify-content-center.align-items-end
             img(src='@/assets/curso/66.png', alt='Texto que describa la imagen' style='width: 397px')
-          h4 Sistemas abiertos. 
+          h4 Sistemas abiertos 
           p Aquellos que intercambian libremente energía y materia con su entorno, como hacen la mayoría de los sistemas conocidos en la cotidianidad. Por ejemplo: un auto. Uno le entrega combustible y éste devuelve al ambiente gases y calor.
       .col-lg-4
         .contenedor.h-100.p-4
@@ -135,7 +135,7 @@
             img(src='@/assets/curso/68.png', alt='Texto que describa la imagen' style='width: 397px')
           h4 Sistemas aislados
           p Aquellos que, hasta cierto punto, no intercambian energía ni materia con el entorno. No existen los sistemas perfectamente aislados, claro está, pero sí hasta cierto grado: un termo que contiene agua caliente preservará su temperatura durante un rato, lo suficiente como para conservarse aislado durante un rato.
-    p.mb-5 Un sistema está en equilibrio termodinámico si es incapaz de experimentar espontáneamente algún cambio de estado o proceso termodinámico cuando está sometido a las condiciones de un contorno.
+    p.mb-5 Un sistema está en equilibrio termodinámico si es incapaz de experimentar espontáneamente algún cambio de estado o proceso termodinámico cuando está sometido a las condiciones de un entorno.
     Separador
     #t_5_2.titulo-segundo(data-aos="slide-right")
       h2 5.2 Escalas termométricas 
@@ -162,7 +162,7 @@
         .col-md-2: img(src="@/assets/curso/69.svg")
       .row(subtitulo="" titulo="Kelvin (K)").px-5.align-items-center
         .col-md-10
-          p Esta escala establecida por el científico Lord William Thompson Kelvin el incremento de 1K equivale a 1°C, que es lo que se conoce como escala métrica absoluta. 0k equivale a -273°C o a -459°F, es decir un cero absoluto de temperatura, debajo de esa temperatura no se puede lograr descender más. Esta escala es comúnmente utilizada para los estudios científicos, mientras que para el resto de usos domésticos y clínicos se elige la escala Celsius y Fahrenheit, en ese orden.
+          p En esta escala establecida por el científico Lord William Thompson Kelvin el incremento de 1K equivale a 1°C, que es lo que se conoce como escala métrica absoluta. 0K equivale a -273°C o a -459°F, es decir un cero absoluto de temperatura, debajo de esa temperatura no se puede lograr descender más. Esta escala es comúnmente utilizada para los estudios científicos, mientras que para el resto de usos domésticos y clínicos se elige la escala Celsius y Fahrenheit, en ese orden.
         .col-md-2: img(src="@/assets/curso/70.svg")
       .row(subtitulo="" titulo="Fahrenheit (F)").px-5.align-items-center
         .col-md-10
@@ -178,10 +178,10 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 e-libro
-                  p.text-small Para ampliar la información en Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor - Universitas. En el capítulo 12 Termometría y dilatación
+                  p.text-small Para ampliar la información sobre las escalas en Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor - Universitas.
                     
                 .col-sm-auto.d-flex.flex-column
-                  a.boton.color-acento-botones.mb-3(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/174517?page=281')" target="_blank")
+                  a.boton.color-acento-botones.mb-3(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/174517?page=281. ')" target="_blank")
                     span Enlace web
                     i.fas.fa-link
     Separador
@@ -196,7 +196,9 @@
             p.mb-5 El proceso isotérmico o isotermo es el cambio reversible en un sistema termodinámico, siendo en dicho cambio la temperatura constante en todo el sistema. 
               br
               br
-              |Una curva isoterma es una línea que sobre un diagrama representa los valores sucesivos de las diversas variables de un sistema en un proceso isotermo. Las isotermas de un gas ideal en un diagrama P-V, llamado diagrama de Clapeyron, son hipérbolas equiláteras, cuya ecuación es:
+              |Una curva isoterma es una línea que sobre un diagrama representa los valores sucesivos de las diversas variables de un sistema en un proceso isotermo. Las isotermas de un gas ideal en un diagrama 
+              b P-V
+              |, llamado diagrama de Clapeyron, son hipérbolas equiláteras, cuya ecuación es:
             .col-lg-10
               .recuadro-verde.fondo-verde.px-5.py-3.d-flex.justify-content-end
                 .contenido.w-90.ps-5
@@ -212,7 +214,7 @@
             .col-lg-10
               .recuadro-verde.fondo-verde.px-5.py-3.d-flex.justify-content-end
                 .contenido.w-90.ps-5
-                  h4.text-white.mb-0 ΔW = PΔV.
+                  h4.text-white.mb-0 ΔW = PΔV
           .col-md-6
             figure
               img(src='@/assets/curso/73.jpg', alt='Texto que describa la imagen')
@@ -223,7 +225,7 @@
             .col-lg-10.mb-5
               .recuadro-verde.fondo-verde.px-5.py-3.d-flex.justify-content-end
                 .contenido.w-90.ps-5
-                  h4.text-white.mb-0 ΔP = 0.
+                  h4.text-white.mb-0 ΔP = 0
             p El calor transferido al sistema realiza trabajo, pero también cambia la energía interna del sistema. 
           .col-md-6
             figure
@@ -235,7 +237,7 @@
             .col-lg-10.mb-5
               .recuadro-verde.fondo-verde.px-5.py-3.d-flex.justify-content-end
                 .contenido.w-90.ps-5
-                  h4.text-white.mb-0 ΔU + W = 0 y W = PΔV.
+                  h4.text-white.mb-0 ΔU + W = 0 y W = PΔV
           .col-md-6
             figure
               img(src='@/assets/curso/75.svg', alt='Texto que describa la imagen')
@@ -249,7 +251,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.mb-1 e-libro
-                  p.text-small Para ampliar la información en Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor - Universitas. En el capítulo 12 Termometría y dilatación
+                  p.text-small Para ampliar la información en Arenas, F. C. (2020). Física universitaria. Jorge Sarmiento Editor - Universitas. En el capítulo 12 Termometría y dilatación.
                     
                 .col-sm-auto.d-flex.flex-column
                   a.boton.color-acento-botones.mb-3(:href="('https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/174517?page=280')" target="_blank")
