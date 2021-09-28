@@ -121,7 +121,7 @@
               br
               |De la relación exacta de N<sub>A</sub>=6,02214076×10<sup>23</sup>mol<sup>-1</sup>, se obtiene la definición de un mol en función de la constante N<sub>A</sub>.
             img.mb-5(src="@/assets/curso/8.svg")
-            p Teniendo en cuenta lo anterior, se puede definir el mol como la cantidad de sustancia de un sistema que contiene 6,02214076×1023 entidades elementales especificadas.
+            p Teniendo en cuenta lo anterior, se puede definir el mol como la cantidad de sustancia de un sistema que contiene 6,02214076×10<sup>23</sup> entidades elementales especificadas.
       .row(subtitulo="Concepto" titulo="Intensidad luminosa").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
