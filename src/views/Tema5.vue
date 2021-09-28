@@ -7,8 +7,8 @@
         span 5
       h1 Termodinámica 
     p.mb-5 La energía térmica se puede transformar en energía mecánica, aplicando también la ley de la conservación de la energía, haciendo una acotación, que con el aumento de alguno de los tipos de energía debe haber una reducción a alguna de las otras formas de energía.  Esta se encarga del estudio de los cambios de temperatura, presión y volumen de un sistema físico. El término significa calor y dinámica hace referencia al movimiento. La termodinámica es el estudio del movimiento desordenado de las partículas.  En Termodinámica se establecen cuatro principios o leyes: 
-    TabsB.color-acento-contenido.mb-5
-      .py-4.py-md-5(titulo="Principio Cero" :icono="require('@/assets/curso/61.svg')")
+    TabsD.color-acento-contenido.mb-5
+      .py-4.py-md-5(titulo="Principio Cero" :icono="require('@/assets/curso/61.svg')" :icono2="require('@/assets/curso/78.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Principio Cero
@@ -16,7 +16,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/57.jpg', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Primer Principio" :icono="require('@/assets/curso/62.svg')")
+      .py-4.py-md-5(titulo="Primer Principio" :icono="require('@/assets/curso/62.svg')" :icono2="require('@/assets/curso/78.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Primer Principio
@@ -24,7 +24,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/58.jpg', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Segundo Principio" :icono="require('@/assets/curso/63.svg')")
+      .py-4.py-md-5(titulo="Segundo Principio" :icono="require('@/assets/curso/63.svg')" :icono2="require('@/assets/curso/78.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Segundo Principio
@@ -32,7 +32,7 @@
           .col-md-6
             figure
               img(src='@/assets/curso/59.jpg', alt='Texto que describa la imagen')
-      .py-4.py-md-5(titulo="Tercer Principio" :icono="require('@/assets/curso/64.svg')")
+      .py-4.py-md-5(titulo="Tercer Principio" :icono="require('@/assets/curso/64.svg')" :icono2="require('@/assets/curso/78.svg')")
         .row
           .col-md-6.mb-4.mb-md-0
             h4 Tercer Principio
@@ -262,11 +262,13 @@
 
 <script>
 import AcordeonB from '../components/AcordeonB.vue'
+import TabsD from '../components/TabsD.vue'
 
 export default {
   name: 'Tema5',
   components: {
     AcordeonB,
+    TabsD,
   },
   data: () => ({
     // variables de vue
