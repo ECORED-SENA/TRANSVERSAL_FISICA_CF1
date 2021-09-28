@@ -127,7 +127,7 @@
         .contenedor.h-100.p-4
           .img.p-2.mb-3.d-flex.justify-content-center.align-items-end
             img(src='@/assets/curso/67.png', alt='Texto que describa la imagen' style='width: 397px')
-          h4 Sistemas cerrados. 
+          h4 Sistemas cerrados
           p Aquellos que intercambian energía con su entorno, pero no materia. Es lo que ocurre con un envase cerrado, como una lata, cuyo contenido es invariable, pero pierde calor con el tiempo, disipándose en el aire alrededor.
       .col-lg-4
         .contenedor.h-100.p-4

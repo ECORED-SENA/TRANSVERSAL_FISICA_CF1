@@ -56,30 +56,30 @@
       .row(subtitulo="Concepto" titulo="Masa").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
-          h3 Kilogramo
+          h3 Kilogramo (kg)
         .col-md-10
           .contenedor-acordeon.p-3.ps-5.ps-md-0
-            p.mb-5 El Kilogramo (kg), es la unidad del SI para la masa. Este se define al fijar el valor de la constante Planck (h), en 6,626070 15 × 10<sup>-34</sup>, cuando se expresa en la unidad J·s, que es igual a kg·m2·s<sup>-1</sup>, donde el metro y el segundo están en función de c y ΔνCs.
+            p.mb-5 El Kilogramo (kg), es la unidad del SI para la masa. Este se define al fijar el valor de la constante Planck (h), en 6,626070 15 × 10<sup>-34</sup>, cuando se expresa en la unidad J·s, que es igual a kg·m<sup>2</sup>·s<sup>-1</sup>, donde el metro y el segundo están en función de c y ΔνCs.
               br
               br
-              |De la relación exacta de h = 6,62607015 × 10<sup>-34</sup> kg·m2·s<sup>-1</sup>, se obtiene la unidad de kg·m2·s<sup>-1</sup>, y de esta, la expresión para el kilogramo, que está en función de la constante de Planck.
+              |De la relación exacta de h = 6,62607015 × 10<sup>-34</sup> kg·m<sup>2</sup>·s<sup>-1</sup>, se obtiene la unidad de kg·m<sup>2</sup>·s<sup>-1</sup>, y de esta, la expresión para el kilogramo, que está en función de la constante de Planck.
             img.mb-5(src="@/assets/curso/3.svg")
             p.mb-5 A partir de esto, y con las definiciones del segundo y el metro, se obtiene la definición del kilogramo en función de las constantes h, ΔνCs y c:
             img.mb-5(src="@/assets/curso/4.svg")
-            p Basado en lo anterior, se define la unidad kg, m2 y s<sup>-1</sup>, unidades de las magnitudes físicas en acción y movimiento angular, junto con las definiciones del segundo y el metro; esto lleva a la definición para la unidad de masa en función de la constante Planck (h).
+            p Basado en lo anterior, se define la unidad kg, m<sup>2</sup> y s<sup>-1</sup>, unidades de las magnitudes físicas en acción y movimiento angular, junto con las definiciones del segundo y el metro; esto lleva a la definición para la unidad de masa en función de la constante Planck (h).
       .row(subtitulo="Concepto" titulo="Tiempo").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
-          h3 Segundo
+          h3 Segundo (s)
       
         .col-md-10
           .contenedor-acordeon.p-3.ps-5.ps-md-0
-            p.mb-5 El segundo (s), es la unidad del SI para el tiempo. Este se define al fijar el valor de la frecuencia de la transición hiperfina del estado fundamental no perturbado del átomo de Cesio 133 ΔνCs, en 9,192631770, cuando se expresa en Hz=s<sup>-1</sup>.
+            p.mb-5 El segundo (s), es la unidad del SI para el tiempo. Este se define al fijar el valor de la frecuencia de la transición hiperfina del estado fundamental no perturbado del átomo de Cesio 133 ΔνCs, en 9.192.631.770, cuando se expresa en Hz=s<sup>-1</sup>.
               br
               br
               |De la relación exacta de ΔνCs=9.192.631.770 s<sup>-1</sup>, se obtiene la expresión para el segundo, que está en función de ΔνCs.
             img.mb-5(src="@/assets/curso/5.svg")
-            p A partir de lo anterior, el segundo es la duración de 9,192631770 periodos de radicación en cuanto a la transición entre dos niveles hiperfinos del estado fundamental no perturbado del átomo del Cesio, 133.
+            p A partir de lo anterior, el segundo es la duración de 9.192.631.770 periodos de radicación en cuanto a la transición entre dos niveles hiperfinos del estado fundamental no perturbado del átomo del Cesio, 133.
       .row(subtitulo="Concepto" titulo="Intensidad de corriente eléctrica").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
@@ -92,7 +92,7 @@
               br
               |De la relación exacta de e=1,602176634×10<sup>-19</sup> A·s, se obtiene la definición del amperio en función de las constantes e y ΔνCs. 
             img.mb-5(src="@/assets/curso/6.svg")
-            p En esta definición, se concluye que el amperio es la corriente eléctrica en cuanto al flujo de 1/ (1,602.176.634×10<sup>-19</sup>) =6,241509074×1018 cargas elementales por segundo.
+            p En esta definición, se concluye que el amperio es la corriente eléctrica en cuanto al flujo de 1/ (1,602176634×10<sup>-19</sup>) =6,241509074×10<sup>18</sup> cargas elementales por segundo.
       .row(subtitulo="Concepto" titulo="Temperatura termodinámica").p-4
         .col-md-2
           p.mb-0 Nombre y símbolo
@@ -100,10 +100,10 @@
       
         .col-md-10
           .contenedor-acordeon.p-3.ps-5.ps-md-0
-            p.mb-5 El Kelvin (K), es la unidad del SI para la temperatura en termodinámica. Este se define al fijar el valor de la constante de Boltzmann (k), 1,380649 × 10<sup>-23</sup>, cuando se expresa en J·K-1=kg·m2·s<sup>-2</sup>·K<sup>-1</sup>, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.
+            p.mb-5 El Kelvin (K), es la unidad del SI para la temperatura en termodinámica. Este se define al fijar el valor de la constante de Boltzmann (k), 1,380649 × 10<sup>-23</sup>, cuando se expresa en J·K<sup>-1</sup> =kg·m<sup>2</sup>·s<sup>-2</sup>·K<sup>-1</sup>, donde el kilogramo, el metro y el segundo están en función de h, c y ΔνCs.
               br
               br
-              |De la relación exacta de k = 1,380649 × 10<sup>-23</sup> kg·m2·s<sup>-2</sup>·K<sup>-1</sup>, se obtiene la expresión para el Kelvin, que está en función de k, h y ΔνCs.
+              |De la relación exacta de k = 1,380649 × 10<sup>-23</sup> kg·m<sup>2</sup>·s<sup>-2</sup>·K<sup>-1</sup>, se obtiene la expresión para el Kelvin, que está en función de k, h y ΔνCs.
             img.mb-5(src="@/assets/curso/7.svg")
             p De acuerdo con lo anterior, se puede concluir que el Kelvin hace referencia a la variación de la temperatura termodinámica que da lugar, a su vez, a un cambio en la energía térmica de kT de 1,380649×10<sup>-23</sup>J.
       .row(subtitulo="Concepto" titulo="Cantidad de sustancia").p-4
@@ -113,13 +113,13 @@
       
         .col-md-10
           .contenedor-acordeon.p-3.ps-5.ps-md-0
-            p.mb-5 El mol (mol) es la unidad del SI para la sustancia. Un mol contiene 6,02214076×1023 entidades elementales, el cual es el valor de la constante de Avogadro (N<sub>A</sub>), cuando se expresa en mol<sup>-1</sup> se denomina como número de Avogadro.
+            p.mb-5 El mol (mol) es la unidad del SI para la sustancia. Un mol contiene 6,02214076×10<sup>23</sup> entidades elementales, el cual es el valor de la constante de Avogadro (N<sub>A</sub>), cuando se expresa en mol<sup>-1</sup> se denomina como número de Avogadro.
               br
               br
               |La cantidad de sustancia (n) de un sistema, es una medida del número de entidades elementales especificadas, como un átomo, una molécula, un ion, un electrón, o cualquier otra partícula o grupo especificado de estas.
               br
               br
-              |De la relación exacta de N<sub>A</sub>=6,02214076×1023mol<sup>-1</sup>, se obtiene la definición de un mol en función de la constante N<sub>A</sub>.
+              |De la relación exacta de N<sub>A</sub>=6,02214076×10<sup>23</sup>mol<sup>-1</sup>, se obtiene la definición de un mol en función de la constante N<sub>A</sub>.
             img.mb-5(src="@/assets/curso/8.svg")
             p Teniendo en cuenta lo anterior, se puede definir el mol como la cantidad de sustancia de un sistema que contiene 6,02214076×1023 entidades elementales especificadas.
       .row(subtitulo="Concepto" titulo="Intensidad luminosa").p-4

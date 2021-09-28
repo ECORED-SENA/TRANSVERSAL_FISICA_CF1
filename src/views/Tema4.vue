@@ -35,15 +35,15 @@
               b Hay que recordar que 
               | la fuerza es magnitud vectorial y sus componentes en 
               b x (Fx) 
-              | y en y 
-              b (Fy) 
+              | y en   
+              b y (Fy) 
               | son:
               br
               b Fx = F cos θ 
               span.px-5 
               |y 
               span.px-5  
-              | Fy = F Sen θ
+              b  Fy = F Sen θ
     br
     br
     br

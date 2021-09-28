@@ -90,7 +90,7 @@
       .row
         .col-md-5.mb-4.mb-md-0
           h5 La distancia 
-          p Es la longitud recorrida por un cuerpo de un punto a otro, por ejemplo del punto A al punto B, o ubicados en el plano cartesiano, del punto (x<sub>0</sub>,y<sub>0</sub>) al (x<sub>1</sub>,y<sub>1</sub>). Indica el desplazamiento de la partícula.
+          p Es la longitud recorrida por un cuerpo de un punto a otro, por ejemplo del punto A al punto B, o ubicados en el plano cartesiano, del punto (x<sub>0</sub>, y<sub>0</sub>) al (x<sub>1</sub>, y<sub>1</sub>). Indica el desplazamiento de la partícula.
       
         .col-md-7
           figure
@@ -138,9 +138,9 @@
         .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
           .contenido.w-90.ps-2
             h5 Las ecuaciones del MRU:
-            p.fw-bold.mb-0 x = x0 + v⋅t
+            p.fw-bold.mb-0 x = x<sub>0</sub> + v⋅t
               br
-              |v = v0 = cte
+              |v = v<sub>0</sub> = cte.
               br
               |a=0
       .col-lg-6(data-aos="slide-left")
@@ -180,7 +180,7 @@
       .col-lg-6(data-aos="slide-right")
         p.mb-5 La caída libre es el movimiento influenciado por la aceleración de la gravedad 
           spam.texto-verde 
-            |(g)  
+            b (g)  
           |y se debe al incremento de la velocidad por la unidad de tiempo, de un cuerpo que se deja caer.    
       .col-lg-6(data-aos="slide-left")
         .recuadro-verde.px-5.py-3.d-flex.justify-content-end.mb-5
@@ -228,13 +228,15 @@
             h5 Ecuaciones del movimiento de proyectiles: 
             p.fw-bold.mb-0 
               spam.h5 Velocidad: 
-              | v<sub>x</sub> = v<sub>0</sub>cos Ɵ<sub>0</sub>	v<sub>y</sub> = vosenƟ<sub>0</sub> – gt
+              | v<sub>x</sub> = v<sub>0</sub>cos Ɵ<sub>0</sub>
+              spam.px-2
+              |	v<sub>y</sub> = v<sub>o</sub>senƟ<sub>0</sub> – gt
               br
               spam.h5 Alcance en x: 
               | L = x<sub>0</sub> + v<sub>0</sub>cos Ɵ<sub>0</sub> t
               br
               spam.h5 Altura máxima: 
-              | h = yo + (vo<sup>2</sup> sen<sup>2</sup>Ɵ<sub>0</sub> / 2g)
+              | h = y<sub>o</sub> + (v<sub>o</sub><sup>2</sup> sen<sup>2</sup>Ɵ<sub>0</sub> / 2g)
       .col-lg-6(data-aos="slide-left")
         .titulo-sexto.color-acento-contenido
           h5.fw-normal
