@@ -136,6 +136,10 @@
           h4 Sistemas aislados
           p Aquellos que, hasta cierto punto, no intercambian energía ni materia con el entorno. No existen los sistemas perfectamente aislados, claro está, pero sí hasta cierto grado: un termo que contiene agua caliente preservará su temperatura durante un rato, lo suficiente como para conservarse aislado durante un rato.
     p.mb-5 Un sistema está en equilibrio termodinámico si es incapaz de experimentar espontáneamente algún cambio de estado o proceso termodinámico cuando está sometido a las condiciones de un entorno.
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/s2vJUB2eCd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Parámetros termodinámicos fundamentales
     Separador
     #t_5_2.titulo-segundo(data-aos="slide-right")
       h2 5.2 Escalas termométricas 

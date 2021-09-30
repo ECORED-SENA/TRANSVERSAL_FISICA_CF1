@@ -9,8 +9,8 @@
     p.mb-5 <b>La dinámica</b> obedece al movimiento, en física esto se refiere a la relación que existe entre los acontecimientos, las causas que lo provocan, sus cambios y el tiempo en que estos suceden. 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/6NeZlIiTzMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption La ciencia de las cosas: dinámica
     Separador
     #t_3_1.titulo-segundo(data-aos="slide-right")
       h2 3.1 Primera ley de Newton 
@@ -43,6 +43,10 @@
     Separador
     #t_3_2.titulo-segundo(data-aos="slide-right")
       h2 3.2 Conceptos básicos
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/U4mjPiDx4ew" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption La ciencia de las cosas: conceptos básicos
     .row.justify-content-center.mb-5
       .col-md-10
         #carouselExampleIndicators.carousel.slide.mb-5(data-bs-ride='carousel')

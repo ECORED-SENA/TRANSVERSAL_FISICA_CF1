@@ -17,6 +17,11 @@
       .col-lg-10
         figure.mb-5
           img(src='@/assets/curso/53.svg')
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/xDUXHYmei1A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption La ciencia de las cosas: conservación de la energía
+    Separador
     #t_4_1.titulo-segundo(data-aos="slide-right")
       h2 4.1 Trabajo efectuado por una fuerza (constante - variable)
     .row.mb-5

@@ -200,6 +200,10 @@
             p.py-3
               b c) 
               |  El vector R es la suma de los vectores A y B cuando B se une a A. 
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/09_Vykpi8nU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Física: Magnitudes escalares y vectoriales
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10
         .tarjeta.color-acento-contenido.p-3.mb-5
