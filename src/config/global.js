@@ -278,7 +278,7 @@ export default {
     },
     {
       referencia:
-        'Serway, R. A. y Vuille, C. (2012). Fundamentos de física. Vol. 2 (9a. ed.). Cengage. ',
+        'Serway, R. A. Jewett, J. W. y Cervantes González, S. R. (2015). Física para ciencias e ingeniería Vol. 2 (9a. ed.). México, D. F., Cengage. ',
       link:
         'https://elibro-net.bdigital.sena.edu.co/es/ereader/senavirtual/93203?page=30',
     },

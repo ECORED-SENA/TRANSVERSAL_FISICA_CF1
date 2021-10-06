@@ -50,7 +50,7 @@
       .row
         .col-md-5.mb-4.mb-md-0
           h5 Un objeto está en reposo
-          p Cuando los objetos no presentan variación en el tiempo. Ejemplo de esto es si al frente del poste de energía instalamos una estatua. Estos permanecerán allí en el transcurso del tiempo si tener cambios en sus posiciones.
+          p Cuando los objetos no presentan variación en el tiempo. Ejemplo de esto es si al frente del poste de energía instalamos una estatua. Estos permanecerán allí en el transcurso del tiempo sin tener cambios en sus posiciones.
       
         .col-md-7
           figure

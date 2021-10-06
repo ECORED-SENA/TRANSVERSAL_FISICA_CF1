@@ -122,7 +122,7 @@
           .img.p-2.mb-3.d-flex.justify-content-center.align-items-end
             img(src='@/assets/curso/66.png', alt='Texto que describa la imagen' style='width: 397px')
           h4 Sistemas abiertos 
-          p Aquellos que intercambian libremente energía y materia con su entorno, como hacen la mayoría de los sistemas conocidos en la cotidianidad. Por ejemplo: un auto. Uno le entrega combustible y éste devuelve al ambiente gases y calor.
+          p Aquellos que intercambian libremente energía y materia con su entorno, como hacen la mayoría de los sistemas conocidos en la cotidianidad. Por ejemplo: un auto. Uno le entrega combustible y este devuelve al ambiente gases y calor.
       .col-lg-4
         .contenedor.h-100.p-4
           .img.p-2.mb-3.d-flex.justify-content-center.align-items-end
@@ -153,7 +153,7 @@
       p.fw-bold 
         span.color-verde
           |La escala termométrica absoluta 
-        |indica el valor del cero absoluto, es decir, que bajo el cero no hay más valores de medida. En honor al científico británico Lord Kelvin, en temperatura se denomina el grado Kelvin (°K). 1°K equivale a -273.16 grados Celsius (°C).
+        |indica el valor del cero absoluto, es decir, que bajo el cero no hay más valores de medida. En honor al científico británico Lord Kelvin, en temperatura se denomina el grado Kelvin (°K). 1 °K equivale a -273.16 grados Celsius (°C).
         br
         br
         span.color-verde
@@ -162,15 +162,15 @@
     AcordeonB.mb-5(tipo="b" clase-tarjeta="tarjeta ")
       .row(subtitulo="" titulo="Celsius (C)").px-5.align-items-center
         .col-md-10
-          p Es una escala desarrollada por el científico sueco Anders Celsius que fue bautizada como Escala Celsius en su nombre. En esta escala definida en 1742, la medida se representa °C y su origen se debe a que el científico tomó como referencia las temperaturas necesarias para el punto de ebullición y congelación del agua, asignando valores entre 0 y 100, siendo 0°C la temperatura más baja y 100°C la más alta en esta escala.
+          p Es una escala desarrollada por el científico sueco Anders Celsius que fue bautizada como Escala Celsius en su nombre. En esta escala definida en 1742, la medida se representa °C y su origen se debe a que el científico tomó como referencia las temperaturas necesarias para el punto de ebullición y congelación del agua, asignando valores entre 0 y 100, siendo 0 °C la temperatura más baja y 100 °C la más alta en esta escala.
         .col-md-2: img(src="@/assets/curso/69.svg")
       .row(subtitulo="" titulo="Kelvin (K)").px-5.align-items-center
         .col-md-10
-          p En esta escala establecida por el científico Lord William Thompson Kelvin el incremento de 1K equivale a 1°C, que es lo que se conoce como escala métrica absoluta. 0K equivale a -273°C o a -459°F, es decir un cero absoluto de temperatura, debajo de esa temperatura no se puede lograr descender más. Esta escala es comúnmente utilizada para los estudios científicos, mientras que para el resto de usos domésticos y clínicos se elige la escala Celsius y Fahrenheit, en ese orden.
+          p En esta escala establecida por el científico Lord William Thomson Kelvin el incremento de 1 °K equivale a 1 °C, que es lo que se conoce como escala métrica absoluta. 0 °K equivale a -273 °C o a -459 °F, es decir un cero absoluto de temperatura, debajo de esa temperatura no se puede lograr descender más. Esta escala es comúnmente utilizada para los estudios científicos, mientras que para el resto de usos domésticos y clínicos se elige la escala Celsius y Fahrenheit, en ese orden.
         .col-md-2: img(src="@/assets/curso/70.svg")
       .row(subtitulo="" titulo="Fahrenheit (F)").px-5.align-items-center
         .col-md-10
-          p Esta escala fue diseñada por el científico holandés-alemán de nombre Gabriel Daniel Fahrenheit y en la actualidad se utiliza principalmente en Estados Unidos y el Reino Unido, no de manera oficial sino más por costumbre popular. Sus valores se dividen en 180 partes iguales, su símbolo es °F; los puntos de congelación y ebullición están entre 32°F y 212°F respectivamente.
+          p Esta escala fue diseñada por el científico holandés-alemán de nombre Gabriel Daniel Fahrenheit y en la actualidad se utiliza principalmente en Estados Unidos y el Reino Unido, no de manera oficial sino más por costumbre popular. Sus valores se dividen en 180 partes iguales, su símbolo es °F; los puntos de congelación y ebullición están entre 32 °F y 212 °F respectivamente.
         .col-md-2: img(src="@/assets/curso/71.svg")
     .row.mb-5.justify-content-center(data-aos="zoom-in-up")
       .col-lg-10

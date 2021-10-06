@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Actividad didáctica 1
-        p.mb-4 Estimado aprendiz, en esta actividad tiene un reto, calcular la velociad de un barco que recorre una distancia de 
+        p.mb-4 Estimado aprendiz, en esta actividad tiene un reto, calcular la velocidad de un barco que recorre una distancia de 
           b 1055 m 
           | en 
           b 69 segundos. 

@@ -143,7 +143,7 @@
     Separador
     #t_3_5.titulo-segundo(data-aos="slide-right") 
       h2 3.5 Tercera ley de Newton 
-    p.mb-5 La tercera ley de Newton se refiere a la de acción y reacción, indica que, si un objeto (A) aplica una fuerza a un cuerpo (B), éste aplica la misma fuerza, pero en sentido contrario a dicho objeto (A). La expresión matemática es: la fuerza que A ejerce sobre B (F<sub>AB</sub>), es igual, pero negativa a la fuerza que B ejerce sobre A (-F<sub>BA</sub>).
+    p.mb-5 La tercera ley de Newton se refiere a la de acción y reacción, indica que, si un objeto (A) aplica una fuerza a un cuerpo (B), este aplica la misma fuerza, pero en sentido contrario a dicho objeto (A). La expresión matemática es: la fuerza que A ejerce sobre B (F<sub>AB</sub>), es igual, pero negativa a la fuerza que B ejerce sobre A (-F<sub>BA</sub>).
       br
       |F<sub>AB</sub> = - F<sub>BA</sub>.
     figure.mb-5
